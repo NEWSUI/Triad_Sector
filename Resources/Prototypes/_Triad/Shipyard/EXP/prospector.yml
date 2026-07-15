@@ -14,7 +14,7 @@
   category: Large
   group: Expedition
   shuttlePath: /Maps/_Triad/Shuttles/EXP/prospector.yml
-  #guidebookPage: ShipyardProspector
+  guidebookPage: ShipyardProspector
   class:
   - Expedition
   - Salvage
