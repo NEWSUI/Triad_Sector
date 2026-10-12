@@ -14,7 +14,7 @@
     maxAngle: 25
     angleIncrease: 10
     angleDecay: 5
-    fireRate: 0.75
+    fireRate: 2.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: ContainerContainer
