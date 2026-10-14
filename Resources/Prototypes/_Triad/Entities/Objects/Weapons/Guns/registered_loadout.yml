@@ -4,6 +4,6 @@
   suffix: Registered
 
 - type: entity
-  parent: [WeaponLoadoutRegisteredBase, WeaponRevolverTaxWriteOff]
-  id: WeaponRevolverTaxWriteOffRegistered
+  parent: [WeaponLoadoutRegisteredBase, WeaponRevolverNSCTradersDecree]
+  id: WeaponRevolverNSCTradersDecreeRegistered
   suffix: Registered

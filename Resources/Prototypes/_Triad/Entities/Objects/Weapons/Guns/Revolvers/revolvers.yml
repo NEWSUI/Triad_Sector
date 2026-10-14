@@ -1,11 +1,11 @@
 ﻿- type: entity
-  name: Tax Write Off (18.5x76mm)
+  name: NSC Trader's Decree (18.5x76mm)
   parent: BaseWeaponRevolver
-  id: WeaponRevolverTaxWriteOff
+  id: WeaponRevolverNSCTradersDecree
   description: A NSC Revolver made out of the finest materials, It is often used to end trade deals with a powerful statement.
   components:
   - type: Sprite
-    sprite: _Triad/Objects/Weapons/Guns/Revolvers/taxwriteoff.rsi
+    sprite: _Triad/Objects/Weapons/Guns/Revolvers/nsc_tradersdecree.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
