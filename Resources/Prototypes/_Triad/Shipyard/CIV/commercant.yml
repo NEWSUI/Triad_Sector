@@ -9,7 +9,7 @@
   id: Commerçant
   parent: BaseVessel
   name: NSC Commerçant
-  description: A high-tech research platform by DRD. Originally designed as a Shipmind vessel, each Erudite includes an AI core, the experimental CTLA-160 Bluespace FTL drive, and a lightly over-taxed Z-Pinch reactor.
+  description: A medium armored large cargo freighter equiped with the top of the line Bluespace Hyperdrive, a 2 core AME and multiple close in weapon system designed to stop any boarding party.The Commerçant's cargo bay is able to store 328 cargo crate for both short and long range transportation.
   price: 193000
   category: Large
   group: Shipyard
