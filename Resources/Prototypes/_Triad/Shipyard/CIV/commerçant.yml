@@ -1,0 +1,42 @@
+﻿# Author Info
+# SUI
+# Discord NEW SUI
+
+# Shuttle Notes: waow
+#
+
+- type: vessel
+  id: Commerçant
+  parent: BaseVessel
+  name: NSC Commerçant
+  description: A high-tech research platform by DRD. Originally designed as a Shipmind vessel, each Erudite includes an AI core, the experimental CTLA-160 Bluespace FTL drive, and a lightly over-taxed Z-Pinch reactor.
+  price: 193000
+  category: Large
+  group: Shipyard
+  shuttlePath: /Maps/_Triad/Shuttles/CIV/commerçant.yml
+  #guidebookPage: ShipyardCommerçant
+  class:
+  - Civilian
+  - Cargo
+  engine:
+  - AME
+
+- type: gameMap
+  id: Commerçant
+  mapName: 'Commerçant'
+  mapPath: /Maps/_Triad/Shuttles/CIV/commerçant.yml
+  minPlayers: 0
+  stations:
+    Commerçant:
+      stationProto: StandardFrontierVessel
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'Commerçant CIV{1}'
+        nameGenerator:
+          !type:NanotrasenNameGenerator
+          prefixCreator: '14'
+      - type: StationJobs
+        availableJobs:
+          Contractor: [ 0, 0 ]
+          Pilot: [ 0, 0 ]
+          Mercenary: [ 0, 0 ]
